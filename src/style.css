@@ -1,0 +1,22 @@
+.from{
+    /* color: green; */
+    background: papayawhip;
+    border: 2px solid red;
+}
+#id1{
+    height: 25px;
+    
+}
+.sname{
+    background: peru;
+    color: blueviolet;
+}
+#btn{
+    border-radius: 20px;
+    /* color: blueviolet; */
+    background: lightblue;
+    width: 35%;
+    height: 50px;
+    text-shadow: 20px;
+    cursor: pointer;
+}

@@ -1,13 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Kumars from './Make';
+import React from "react";
+import ReactDom from "react-dom";
+import Home from "./Home";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDom.createRoot(document.getElementById('root'))
 root.render(
-  <React.StrictMode>
-
-    <Kumars />
-  </React.StrictMode>
-);
-
-
+    <>
+        {/* <h1 className="css">Hello World hii</h1> */}
+        <Home/>
+    </>
+    
+)

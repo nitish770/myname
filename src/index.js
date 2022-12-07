@@ -1,19 +1,31 @@
 import React from "react";
 import ReactDom from "react-dom/client";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import {BrowserRouter,Route, Routes} from 'react-router-dom';
 import Home from "./Megha/Home";
-import About from "./Megha/About";
-import Cards from "./Megha/Contect";
-import './app.css';
+import Navibar from "./Megha/Navibar";
+import About1 from "./Megha/About1";
+import Contact from "./Megha/Contact";
 
 
 const root = ReactDom.createRoot(document.getElementById('root'))
 root.render(
     <React.StrictMode>
-  <Home/>
-  <About/>
-  <Cards/>
-  <Cards/>
+    <BrowserRouter>
+     <Navibar/>
+
+
+     <Routes>
+     <Route path="/home" element={<Home/>}/>
+     <Route path="/about" element={<About1/>}/>
+     <Route path="*" element={<Contact/>}/>
+     
+     </Routes>
+
+
+
+     </BrowserRouter>
+    
+   
   </React.StrictMode>
     
 )

@@ -1,0 +1,17 @@
+import React from 'react'
+
+function FormatName() 
+{
+    const b=100;
+    // const c=new Year();
+   const myfun=()=>{
+    alert('welcome')
+    // console.log(`templet ${c}`);
+   }
+
+   return(
+    <input type="button" value="submite" onClick={myfun}></input>
+   )
+}
+
+export default FormatName;

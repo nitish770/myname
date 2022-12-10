@@ -22,7 +22,10 @@ button{
     border-radius: 5px;
     text-transform: uppercase;
     cursor: pointer;
+    text-shadow: 0 2px 2px black;
 }
 h1{
     color: gray;
+    background: transparent;
+    text-shadow: 0 2px 2px black;
 }

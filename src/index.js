@@ -1,20 +1,23 @@
 import React from "react";
 import ReactDom from "react-dom/client";
-import Hook from "./Hunks/Hook";
-import "./hooks.css";
-import Hook1 from "./Hunks/Hook1";
-import Dclock from "./Hunks/Dclock";
-import Events from "./Hunks/Events";
+import Miniprj from "./Forms/Miniprj";
+// import "./form.css";
+// import "./todo.css";
+import "./app.css";
+// import Form from "./Forms/Form";
+// import Form1 from "./Forms/Form1";
+// import Todo from "./Forms/Todo";
+
 
 
 
 const root = ReactDom.createRoot(document.getElementById('root'))
 root.render(
     <React.StrictMode>
-   <Hook/>
-   <Hook1/>
-   <Dclock/>
-   <Events/>
+    <Miniprj/>
+    {/* <Todo/> */}
+   {/* <Form/> */}
+   {/* <Form1/> */}
   </React.StrictMode>
     
 )

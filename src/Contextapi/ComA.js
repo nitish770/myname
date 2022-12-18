@@ -7,8 +7,8 @@ const LastName = createContext();
 function ComA() {
     return(
         <>
-        <FirstName.Provider value={"Vishnu Kumar"}>
-        <LastName.Provider value={"Nitish Ranjan"}>
+        <FirstName.Provider value={"Vishnu Kumar....."}>
+        <LastName.Provider value={"Nitish... Ranjan"}>
         <ComB/>
         </LastName.Provider>
         </FirstName.Provider>

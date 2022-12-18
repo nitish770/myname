@@ -7,6 +7,7 @@ function UseEffichook() {
     useEffect(()=>{
         alert('clicked');
         console.log('I clicked');
+        document.title = `you clicked me ${num} times`
     },[num]);
     return(
     <>

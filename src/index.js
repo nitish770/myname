@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDom from "react-dom/client";
-import ComA from "./Contextapi/ComA";
-import Title from "./Contextapi/Title";
+import Api from "./Contextapi/Api";
+// import ComA from "./Contextapi/ComA";
+// import Title from "./Contextapi/Title";
 // import UseEffichook from "./Contextapi/UseEffichook";
 // import Miniprj from "./Forms/Miniprj";
 // import "./form.css";
@@ -17,9 +18,10 @@ import Title from "./Contextapi/Title";
 const root = ReactDom.createRoot(document.getElementById('root'))
 root.render(
     <React.StrictMode>
+    <Api/>
     {/* <UseEffichook/> */}
-    <ComA/>
-    <Title/>
+    {/* <ComA/>
+    <Title/> */}
     {/* <Miniprj/> */}
     {/* <Todo/> */}
    {/* <Form/> */}

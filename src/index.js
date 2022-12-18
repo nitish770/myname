@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDom from "react-dom/client";
-import Miniprj from "./Forms/Miniprj";
+import ComA from "./Contextapi/ComA";
+// import Miniprj from "./Forms/Miniprj";
 // import "./form.css";
 // import "./todo.css";
-import "./app.css";
+// import "./app.css";
 // import Form from "./Forms/Form";
 // import Form1 from "./Forms/Form1";
 // import Todo from "./Forms/Todo";
@@ -14,7 +15,8 @@ import "./app.css";
 const root = ReactDom.createRoot(document.getElementById('root'))
 root.render(
     <React.StrictMode>
-    <Miniprj/>
+    <ComA/>
+    {/* <Miniprj/> */}
     {/* <Todo/> */}
    {/* <Form/> */}
    {/* <Form1/> */}

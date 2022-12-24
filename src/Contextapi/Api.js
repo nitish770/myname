@@ -36,3 +36,33 @@ function Api() {
     )
 }
 export default Api;
+
+
+
+
+
+// import Api from "./Contextapi/Api";
+// import ComA from "./Contextapi/ComA";
+// import Title from "./Contextapi/Title";
+// import UseEffichook from "./Contextapi/UseEffichook";
+// import Miniprj from "./Forms/Miniprj";
+// import "./form.css";
+// import "./todo.css";
+// import "./app.css";
+// import Form from "./Forms/Form";
+// import Form1 from "./Forms/Form1";
+// import Todo from "./Forms/Todo";
+
+
+
+
+
+
+ {/* <Api/> */}
+    {/* <UseEffichook/> */}
+    {/* <ComA/>
+    <Title/> */}
+    {/* <Miniprj/> */}
+    {/* <Todo/> */}
+   {/* <Form/> */}
+   {/* <Form1/> */}

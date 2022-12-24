@@ -1,31 +1,128 @@
 import React from "react";
 import ReactDom from "react-dom/client";
-import Api from "./Contextapi/Api";
-// import ComA from "./Contextapi/ComA";
-// import Title from "./Contextapi/Title";
-// import UseEffichook from "./Contextapi/UseEffichook";
-// import Miniprj from "./Forms/Miniprj";
-// import "./form.css";
-// import "./todo.css";
-// import "./app.css";
-// import Form from "./Forms/Form";
-// import Form1 from "./Forms/Form1";
-// import Todo from "./Forms/Todo";
-
-
+import { BrowserRouter } from "react-router-dom";
+import Appp from "./project1/Appp";
+import './projects.css';
 
 
 const root = ReactDom.createRoot(document.getElementById('root'))
 root.render(
     <React.StrictMode>
-    <Api/>
-    {/* <UseEffichook/> */}
-    {/* <ComA/>
-    <Title/> */}
-    {/* <Miniprj/> */}
-    {/* <Todo/> */}
-   {/* <Form/> */}
-   {/* <Form1/> */}
+    <BrowserRouter>
+    <Appp/>
+    </BrowserRouter>
+   
   </React.StrictMode>
-    
 )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from "react";
+// import ReactDom from "react-dom/client";
+// import Miniprj from "./Forms/Miniprj";
+// import "./app.css";
+
+// import Form1 from "./Forms/Form1";
+// import Form from "./Forms/Form";
+// import "./form.css";
+
+// import TodoList from "./Forms/TodoList";
+// import Todo from "./Forms/Todo";
+// import "./todo.css";
+
+
+// const root = ReactDom.createRoot(document.getElementById('root'))
+// root.render(
+//     <React.StrictMode>
+    
+//      <Miniprj/>
+//      <Form1/> 
+//      <Form/> 
+//      <Todo/>
+//      <TodoList/>
+
+//   </React.StrictMode>
+// )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from "react";
+// import ReactDom from "react-dom/client";
+// import { BrowserRouter } from "react-router-dom";
+// import Main from "./router/Main";
+
+
+// const root = ReactDom.createRoot(document.getElementById('root'))
+// root.render(
+//     <React.StrictMode>
+//     <BrowserRouter>
+//     <Main/>
+//     </BrowserRouter>
+    
+   
+//   </React.StrictMode>
+    
+// )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

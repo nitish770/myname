@@ -19,7 +19,8 @@ function Contact() {
   };
   const formSubmit = (e) => {
     e.preventDefault();
-    alert(`My name is ${data.FullName},
+    alert(
+                 `My name is ${data.FullName},
        My mobile number is ${data.PhoneNumbr},
         and email is ${data.email}, 
         Here is what I want to say ${data.Messages}`
@@ -36,7 +37,9 @@ function Contact() {
 
             <form onSubmit={formSubmit}>
               <div class="mb-3">
-                Full Name
+              <label for="exampleFormControlInput1"
+                  class="form-label">Full Name 
+                </label>
                 <input type="text"
                   class="form-control"
                   id="exampleFormControlInput1"
@@ -69,7 +72,7 @@ function Contact() {
                   name='email'
                   value={data.email}
                   onChange={InputEvent}
-                  placeholder="name@example.com" />
+                  placeholder="Enter your email" />
               </div>
 
               <div class="mb-3">

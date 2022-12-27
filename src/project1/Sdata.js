@@ -1,29 +1,41 @@
 
 const Sdata =[
  {
-    imgsrc: 'Image/black.jpeg',
+    imgsrc: 'Image/img1.jpg',
     title:'web development'
  },
  {
-    imgsrc: 'Image/lion.webp',
-    title:'App development'
+    imgsrc: 'Image/img3.jpg',
+    title:'Web design'
  },
  {
-    imgsrc: 'Image/kingkong.jpg',
+    imgsrc: 'Image/img4.jpg',
     title:'Softwere development'
  },
  {
-    imgsrc: 'Image/gather.jfif',
+    imgsrc: 'Image/img6.jpg',
     title:'development'
  },
  {
     imgsrc: 'Image/img4.jpg',
-    title:'Application development'
+    title:'Application '
  },
  {
     imgsrc: 'Image/img2.jpg',
-    title:'web'
+    title:'React Native'
  },
+ {
+   imgsrc: 'Image/img3.jpg',
+   title:'Reactjs devloper'
+},
+{
+   imgsrc: 'Image/img5.jpg',
+   title:'fullstuck'
+},
+{
+   imgsrc: 'Image/img7.jpg',
+   title:'Softwere Eng'
+},
  
 ];
 

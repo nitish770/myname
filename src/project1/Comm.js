@@ -12,9 +12,9 @@ function Comm(props) {
                     <div className='col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column'>
                         <h1> 
                         {props.name}
-                         <strong className='brand-name'> Tata </strong> </h1>
+                         <strong className='brand-name'> TEAMWORK </strong> </h1>
                        <h2 className='my-3'> 
-                         We are the team of talented devveloper making Websites
+                         We are the team of talented development making Websites
                          </h2> 
                          <div className='my-3'>
                             <Link to={props.visit} className='btn-get-started'>

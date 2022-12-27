@@ -6,7 +6,7 @@ function About() {
   return (
     <>
      <Comm
-      name='Welcome to About page' 
+      name='Welcome to my team' 
       imgsrc={'image/adam.jpg'}
       visit= '/contact'
       btname='Contact Now'
